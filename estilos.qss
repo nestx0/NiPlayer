@@ -1,0 +1,155 @@
+QPushButton#play{
+    border: none;
+    background: transparent;
+    min-width: 64px;
+    min-height: 64px;
+    image:url(:/imagenes/imagenes/play.png);
+}
+QPushButton#play:checked{
+    image:url(:/imagenes/imagenes/pause.png);
+}
+QPushButton#play:hover{
+    image:url(:/imagenes/imagenes/play_hover.png);
+}
+QPushButton#play:checked:hover{
+    image:url(:/imagenes/imagenes/pause_hover.png);
+}
+QPushButton#adelante{
+    border: none;
+    background: transparent;
+    min-width: 64px;
+    min-height: 64px;
+    image:url(:/imagenes/imagenes/forward.png);
+}
+QPushButton#adelante:hover{
+    image:url(:/imagenes/imagenes/forward_hover.png);
+}
+QPushButton#atras{
+    border: none;
+    background: transparent;
+    min-width: 64px;
+    min-height: 64px;
+    image:url(:/imagenes/imagenes/backward.png);
+}
+QPushButton#atras:hover{
+    image:url(:/imagenes/imagenes/backward_hover.png);
+}
+QPushButton#loop{
+    border: none;
+    background: transparent;
+    min-width: 64px;
+    min-height: 64px;
+    image:url(:/imagenes/imagenes/loop.png);
+}
+QPushButton#loop:hover{
+    image:url(:/imagenes/imagenes/loop_hover.png);
+}
+QPushButton#loop:checked{
+    image:url(:/imagenes/imagenes/loop_checked.png);
+}
+QPushButton#loop:checked:hover{
+    image:url(:/imagenes/imagenes/loop_checked_hover.png)
+}
+QPushButton#aleatorio{
+    border: none;
+    background: transparent;
+    min-width: 64px;
+    min-height: 64px;
+    image:url(:/imagenes/imagenes/random.png);
+}
+QPushButton#aleatorio:hover{
+    image:url(:/imagenes/imagenes/random_hover.png);
+}
+QPushButton#aleatorio:checked{
+    image:url(:/imagenes/imagenes/random_checked.png);
+}
+QPushButton#aleatorio:checked:hover{
+    image:url(:/imagenes/imagenes/random_checked_hover.png);
+}
+QPushButton#addSong{
+
+    border: none;
+    background: transparent;
+    min-width: 64px;
+    min-height: 64px;
+    image:url(:/imagenes/imagenes/add.png);
+
+}
+QPushButton#addSong:hover{
+    image:url(:/imagenes/imagenes/add_hover.png);
+}
+QPushButton#quitar{
+    border: none;
+    background: transparent;
+    min-width: 64px;
+    min-height: 64px;
+    image:url(:/imagenes/imagenes/remove.png);
+}
+QPushButton#quitar:hover{
+    image:url(:/imagenes/imagenes/remove_hover.png);
+}
+QListWidget#listaCanciones{
+    border: 1px solid #ADAFB1;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 150);
+}
+QListWidget#listaCanciones:item:selected{
+    background-color: #a8d8ea;
+    border-radius: 5px;
+}
+QListWidget#listaCanciones:item{
+    color: white
+}
+QSlider#progreso{
+    color: purple;
+    border-radius: 4px;
+}
+QLabel{
+    color: white;
+    font-family:"calibri";
+}
+
+QSlider::groove:horizontal {
+    border: 1px solid #444;
+    height: 6px;
+    background: #555;
+    margin: 0px 0;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background: #bbb;
+    border: 1px solid #666;
+    width: 14px;
+    margin: -5px 0; /* centra el handle respecto al groove */
+    border-radius: 7px;
+}
+
+QSlider::sub-page:horizontal {
+    background: green;
+    border: 1px solid #444;
+    height: 6px;
+    border-radius: 3px;
+}
+QScrollBar:vertical {
+    background: #1e1e1e;
+    width: 12px;
+    margin: 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #606060;
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #808080;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}

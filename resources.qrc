@@ -1,0 +1,44 @@
+<RCC>
+    <qresource prefix="/imagenes">
+        <file>imagenes/pause.png</file>
+        <file>imagenes/pause_hover.png</file>
+        <file>imagenes/play.png</file>
+        <file>imagenes/play_hover.png</file>
+        <file>imagenes/backward.png</file>
+        <file>imagenes/backward_hover.png</file>
+        <file>imagenes/forward.png</file>
+        <file>imagenes/forward_hover.png</file>
+        <file>imagenes/loop.png</file>
+        <file>imagenes/loop_checked.png</file>
+        <file>imagenes/loop_checked_hover.png</file>
+        <file>imagenes/loop_hover.png</file>
+        <file>imagenes/random.png</file>
+        <file>imagenes/random_checked.png</file>
+        <file>imagenes/random_checked_hover.png</file>
+        <file>imagenes/random_hover.png</file>
+        <file>imagenes/add.png</file>
+        <file>imagenes/add_hover.png</file>
+        <file>imagenes/remove.png</file>
+        <file>imagenes/remove_hover.png</file>
+        <file>imagenes/icon.png</file>
+        <file>imagenes/jpeg.jpg</file>
+    </qresource>
+    <qresource prefix="/estilo">
+        <file>estilos.qss</file>
+    </qresource>
+    <qresource prefix="/covers">
+        <file>covers/6.jpeg</file>
+        <file>covers/10.jpeg</file>
+        <file>covers/3.jpeg</file>
+        <file>covers/12.jpeg</file>
+        <file>covers/4.jpeg</file>
+        <file>covers/9.jpeg</file>
+        <file>covers/8.jpeg</file>
+        <file>covers/13.jpeg</file>
+        <file>covers/11.jpeg</file>
+        <file>covers/5.jpeg</file>
+        <file>covers/1.jpeg</file>
+        <file>covers/2.jpeg</file>
+        <file>covers/7.jpeg</file>
+    </qresource>
+</RCC>
