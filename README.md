@@ -2,7 +2,8 @@
 A lightweight music player written in C++ using Qt for UI. 
 It's the first project made by myself, so i'll keep improving it as time goes on
 
-![NiPlayer Interface]<img width="695" height="579" alt="Image" src="https://github.com/user-attachments/assets/96925fdd-8ca9-49bd-a3bc-d68b25a2a25c" />
+<img width="695" height="579" alt="Image" src="https://github.com/user-attachments/assets/96925fdd-8ca9-49bd-a3bc-d68b25a2a25c" />
+
 *NiPlayer running with a cute cat background for each song.*
 
 ## How to manually compile
